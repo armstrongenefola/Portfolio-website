@@ -12,6 +12,7 @@ body{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    margin-top: 2%;
 }
 .logo img{
     width: 150px;
