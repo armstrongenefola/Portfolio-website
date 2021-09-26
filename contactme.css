@@ -269,3 +269,13 @@ form{
     
 }
 }
+@media(max-width:400px) { 
+
+    .salute h1{
+        width: 100%;
+        font-size: 2rem;
+        color:#04001A;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    }
