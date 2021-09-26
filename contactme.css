@@ -103,7 +103,6 @@ typewriter effect email me button */
     display:flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
    
     
 }
@@ -273,8 +272,32 @@ form{
 
 @media(max-width:400px) { 
 
-    .navbar-links{
-        display: none;
-        
-    }
+
+.contact-container{
+    width: 100%;
+    height: 130vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+   
 }
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+.footer-container{
+    display: flex;
+    width:100%;  
+    background:#ff9500 ;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    height: 100px;
+}
+
+}
+    
