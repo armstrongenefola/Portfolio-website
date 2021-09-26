@@ -269,31 +269,3 @@ form{
     
 }
 }
-@media(max-width:400px) { 
-
-    .salute h1{
-        width: 100%;
-        font-size: 2rem;
-        color:#04001A;
-        margin-top: 5rem;
-        text-align: center;
-    }
-    .footer-container{
-        display: flex;
-        width:100%;  
-        background:#ff9500 ;  
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-        height: 100px;
-    }
-    .contact-container{
-        width: 100%;
-        height: auto;
-        z-index: 1;
-        display: flex;
-        justify-content: center;
-       height:150vh;
-    }
-    
-    }
