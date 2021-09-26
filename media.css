@@ -415,3 +415,10 @@ color:#FF9400;
         
     }
     }
+
+    @media(max-width:400px) {
+      .inside-container5 h2 a{
+        font-size:2rem;
+        color:rgb(4, 0, 26);
+    }
+    }
