@@ -284,8 +284,16 @@ form{
         background:#ff9500 ;  
         justify-content: center;
         align-items: center;
-        margin-top: 0%;
+        margin-top: 10%;
         height: 100px;
+    }
+    .contact-container{
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+       
     }
     
     }
