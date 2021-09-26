@@ -278,4 +278,14 @@ form{
         margin-top: 5rem;
         text-align: center;
     }
+    .footer-container{
+        display: flex;
+        width:100%;  
+        background:#ff9500 ;  
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+        height: 100px;
+    }
+    
     }
