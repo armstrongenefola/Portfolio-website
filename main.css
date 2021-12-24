@@ -130,9 +130,20 @@ typewriter effect email me button */
     justify-content: space-between;
 }
 
-.hero img{
+.hero .figur img{
     width: 100%;
     max-width: 400px;
+}
+/* Gray Scale */
+.hero .figur img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hero  .figur:hover img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .first h1{
@@ -179,23 +190,25 @@ input{
     
     margin-top: 50px;
     padding:12px;
-    width:400px;
+    width:450px;
     z-index:1;
     border: 1px solid #FF9400;
     background-color: transparent;
 }
+.portfolio-btn{
 
-.portfolio-btn{ 
-    margin-left: -50px;
-    padding: 8px;
-    margin-top: 50px;
+        margin-left: -155px;
+        padding: 12px;
+        margin-top: 50px;
+        cursor: pointer;
+        background:#FF9400;
+       border:0;
+        font-weight: bold;
+      width:150px;
+       z-index:5;
     
-    background:#FF9400;
-   border:0;
-    font-weight: bold;
-  width:150px;
-   z-index:5;
 }
+
 
     a{
         text-decoration: none;
@@ -223,11 +236,22 @@ about me paragraph and button */
      }
       .picturee{
          flex:1; 
+     
       }  
-    .second-picture{
+    .picturee .second-picture{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
         width:100%;
     
     }
+    .picturee .second-picture:hover{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    
+    }
+    
     .insidecontainer-aboutme{
         display:flex;
         flex-direction: column;
@@ -267,7 +291,7 @@ about me paragraph and button */
         width: 50%;
         display: flex;
         justify-content: space-between;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .but button{
         
@@ -290,10 +314,26 @@ about me paragraph and button */
         .but1 button a{
            color:#FF9400 ;
             } 
+            .but1 button:hover{
+                /* background: none; */
+                /* border: 1px solid white; */
+                background-color:#FF9400;
+                 } 
+                 
             .but1 button a:hover{
                 background: none;
+                color: white;
                  } 
-           
+                 .but button:hover{
+                    background: none;
+                    border: 1px solid white;
+                     } 
+                     
+                .but button a:hover{
+                    background: none;
+                    color: white;
+                     } 
+
            
  /* END*/
 
@@ -302,7 +342,7 @@ about me paragraph and button */
 .container4{
  display:flex;
  justify-content: center;
- margin-top: -10%;
+ margin-top: -8%;
  height: 90vh;
 }         
 .inside-container3{
@@ -357,38 +397,7 @@ about me paragraph and button */
 
 /* this section is the recent project section that contains the list of project i have done*/                      
         
-              /*  .container4{
-                    background:#000214;
-                    height: 100vh;
-                    margin-top: 10%;
-                    color: white;
-                    display: flex;
-                    justify-content: center;
-                }
-                
-                .container4-header{
-                display: flex;
-                flex-direction:column;
-                width: 80%;
-                margin-top: 5%;
-                
-                }
-            .container4-headings{
-                width: 100%;
-                justify-content: center;
-            }
-
-            .grid-cont{
-                background: chocolate;
-                 display: grid;
-                 grid-template-columns: repeat(2 ,1fr);
-                 grid-gap:10px;
-                 
-             }
-             .grid-cont img{
-                 width:500px;
-                 height:200px;
-             } */
+              
              .projects-wrap {
                  display: flex;
                 background-color: #FF9400; 
@@ -438,7 +447,8 @@ about me paragraph and button */
                 background-color: rgb(4, 0, 26);;
               }
               .projects-item:hover{
-                 transform: scale(1.02);
+                border: 3px solid #ffffff;
+  
                  
               }
               .projects-item img {
@@ -458,7 +468,7 @@ about me paragraph and button */
                 font-size: 18px;
               }
               .project-btn {
-                background-color: transparent;
+                background-color:#ff95000c;
                 color: white;
                 
                 font-size: 0.8rem;
@@ -469,14 +479,19 @@ about me paragraph and button */
                 border: 1px solid #FF9400;
               }
               .project-btn:hover{
-                background:linear-gradient( #ff9500, rgb(248, 10, 10));
-              
+                  
+
+                background:rgb(255,102,6);
+                /* background:linear-gradient( #ff9500, rgb(248, 10, 10)); */
+                color: #f7f5f3;
               }
-              .project-btn a{
-              color: #FF9400;
+              .project-btn a {
+                  font-size: 0.7rem;
+              color: #fcf9f6;
             }
               .project-btn a:hover{
                   background:none ;
+                  color: #fdfcfa;
                   
               }
 
@@ -505,6 +520,8 @@ about me paragraph and button */
 
             .inside-container5 h2 a:hover{
                 background: none;
+               
+                text-decoration: underline;
                 
             }
 
@@ -578,11 +595,5 @@ about me paragraph and button */
                 font-weight: bold;
             }
 
-           
-           
-             
-
-
-               
                 
                 
