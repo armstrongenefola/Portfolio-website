@@ -185,6 +185,10 @@ typewriter effect email me button */
 display:flex;
 margin-top: 8%;
 }
+.email-me form{
+    display:flex;
+    
+    }
 
 input{
     
@@ -197,7 +201,7 @@ input{
 }
 .portfolio-btn{
 
-        margin-left: -155px;
+        margin-left: -50px;
         padding: 12px;
         margin-top: 50px;
         cursor: pointer;
